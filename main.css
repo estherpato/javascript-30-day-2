@@ -53,6 +53,10 @@ body {
     background:black;
     position: absolute;
     top:50%;
+    transform-origin: 100%; /* this makes the hand rotate from the side not its center */
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 /* footer */
